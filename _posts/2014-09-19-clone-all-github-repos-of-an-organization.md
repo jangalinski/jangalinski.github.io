@@ -28,4 +28,5 @@ function git.github.clone.organization() {
     fi
 }
 ```
+
 Thanks, [caniszczyk](https://github.com/caniszczyk)!
