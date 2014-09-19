@@ -1,5 +1,11 @@
 ---
-published: false
+title: Clone all github repos of an organization
+layout: post
+category: gists
+tags: 
+  - github
+  - tool
+  - bash
 ---
 
 ## Clone all repos of an organization
