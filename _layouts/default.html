@@ -18,8 +18,10 @@
     <script src="{{ ASSET_PATH }}/js/Respond.min.js"></script>
     <![endif]-->
 
-    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate"
+          title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate"
+          title="Sitewide RSS Feed">
 </head>
 
 <body>
@@ -49,22 +51,37 @@
     {{ content }}
 </section>
 
-<footer class="container">
-    <hr />
-    <p>
-        &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          <span class="pull-right text-muted">
-            powered by
-            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank"
-               title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
-            and <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap 3.0.3</a> and <a
-                  href="https://github.com/jangalinski/jangalinski.github.io">github.com</a>
-          </span>
-    </p>
+<footer>
+    <hr/>
+    <div class="container">
+        <div class="row">
+            <div class="span4">
+                <h5>About</h5>
+                <ul>
+                    <li>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</li>
+                </ul>
+            </div>
+            <div class="span4">
+                <h5>About</h5>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="span4">
+                <h5>Powered by</h5>
+                <ul>
+                    <li><a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank"
+                           title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a></li>
+                    <li><a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap 3.2.0</a></li>
+                    <li><a href="https://github.com/jangalinski/jangalinski.github.io">github.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>
 
 {% include JB/analytics %}
-<script src="{{ ASSET_PATH }}/js/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 </body>
