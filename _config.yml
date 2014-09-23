@@ -91,10 +91,13 @@ prose:
     - /_includes
   metadata:
     _posts:
+      - name: "title"
+        field:
+          value: ""
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
+          value: "post"
       - name: "tags"
         field:
           element: "multiselect"
