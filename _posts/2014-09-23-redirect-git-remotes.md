@@ -1,6 +1,10 @@
 ---
-layout: blog
+title: Redirect to new github location
+layout: post
 published: true
+category: git
+tags: 
+  - github
 ---
 
 ## Nice to know
