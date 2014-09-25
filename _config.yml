@@ -103,9 +103,14 @@ prose:
           element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
-          options:
+          options: 
             - name: "github"
             - name: "java"
+            - name: "iot"
+            - name: "akka"
+            - name: "maven"
+            - name: "camunda"
+            - name: "testing"
     _posts/static:
       - name: "layout"
         field:
