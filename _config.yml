@@ -91,9 +91,6 @@ prose:
     - /_includes
   metadata:
     _posts:
-      - name: "title"
-        field:
-          value: ""
       - name: "layout"
         field:
           element: "hidden"
