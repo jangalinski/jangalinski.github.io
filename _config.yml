@@ -108,6 +108,7 @@ prose:
             - name: "maven"
             - name: "camunda"
             - name: "testing"
+            - name: "dropwizard"
     _posts/static:
       - name: "layout"
         field:
