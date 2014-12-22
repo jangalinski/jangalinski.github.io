@@ -1,11 +1,14 @@
-# Site settings
 title: Jan Galinski
-email: jan.galinski@holisticon.de
 description: "A developers logbook"
+tagline: A developers logbook
+
+email: jan.galinski@holisticon.de
 baseurl: ""
 url: "http://jangalinski.github.io"
+production_url : http://jangalinski.github.io
 twitter_username: jangalinski
 github_username:  jangalinski
+feedburner_username: jangalinski
 
 # Build settings
 markdown: kramdown
