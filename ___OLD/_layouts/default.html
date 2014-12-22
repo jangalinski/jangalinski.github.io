@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+{% include JB/setup %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="{{ ASSET_PATH }}/js/Respond.min.js"></script>
+    <![endif]-->
+
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate"
+          title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate"
+          title="Sitewide RSS Feed">
+</head>
+
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                {% assign pages_list = site.pages %}
+                {% assign group = 'navigation' %}
+                {% include JB/pages_list %}
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="container">
+    {{ content }}
+</section>
+
+<footer>
+    <hr/>
+    <div class="container">
+        <div class="row">
+            <div class="span4">
+                <h5>About</h5>
+                <ul>
+                    <li>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</li>
+                </ul>
+            </div>
+            <div class="span4">
+                <h5>Dashboard</h5>
+                <ul>
+                    <li><a href="https://github.com/issues">My Issues</a></li>
+                    <li><a href="https://github.com/pulls">My Pull requests</a></li>
+                </ul>
+            </div>
+            <div class="span4">
+                <h5>Powered by</h5>
+                <ul>
+                    <li><a href="http://jekyllbootstrap3.tk/" target="_blank"
+                           title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a></li>
+                    <li><a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap 3.2.0</a></li>
+                    <li><a href="https://github.com/jangalinski/jangalinski.github.io">github.com</a></li>
+                    <li><a href="http://prose.io/#jangalinski/jangalinski.github.io">prose</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{% include JB/analytics %}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

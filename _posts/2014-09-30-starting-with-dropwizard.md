@@ -1,6 +1,8 @@
 ---
 layout: post
-published: false
+title: "Starting with dropbox"
+description: "some useful links"
+header-img: "img/about-bg.jpg"
 ---
 
 ## Starting with dropwizard
