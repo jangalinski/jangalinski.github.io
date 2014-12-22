@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Starting with dropbox"
+title: "Starting with dropwizard"
 description: "some useful links"
 header-img: "img/about-bg.jpg"
 ---
