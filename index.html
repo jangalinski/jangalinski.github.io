@@ -4,39 +4,53 @@ description: "A developers logbook"
 header-img: "img/home-bg.jpg"
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
+<div class="tabbable">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#tabPosts" data-toggle="tab">Posts</a></li>
+    <li><a href="#tabTweets" data-toggle="tab">Tweets</a></li>
+  </ul>
+  <div class="tab-content">
+    <div id="tabPosts" class="tab-pane active">
+
+      {% for post in paginator.posts %}
+      <div class="post-preview">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <h2 class="post-title">
             {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
+          </h2>
+          {% if post.subtitle %}
+          <h3 class="post-subtitle">
             {{ post.subtitle }}
-        </h3>
+          </h3>
+          {% endif %}
+        </a>
+        <p class="post-meta">Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
+      </div>
+      <hr>
+      {% endfor %}
+
+      <!-- Pager -->
+      {% if paginator.total_pages > 1 %}
+      <ul class="pager">
+        {% if paginator.previous_page %}
+        <li class="previous">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        </li>
         {% endif %}
-    </a>
-    <p class="post-meta">Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
+        {% if paginator.next_page %}
+        <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        </li>
+        {% endif %}
+      </ul>
+      {% endif %}
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
-
-
-<a class="twitter-timeline" href="https://twitter.com/jangalinski" data-widget-id="555459122481889282">Tweets von @jangalinski </a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+    <div id="tabTweets" class="tab-pane">
+      <p>
+      <a class="twitter-timeline" href="https://twitter.com/jangalinski" data-widget-id="555459122481889282">Tweets von @jangalinski </a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </p>
+    </div>
+  </div><!-- /.tab-content -->
+</div><!-- /.tabbable -->
