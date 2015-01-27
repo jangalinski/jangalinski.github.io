@@ -1,6 +1,8 @@
 ---
 layout: page
+title: "Links"
 description: "Links"
+header-img: "img/about-bg.jpg"
 ---
 
 Loose collection of links I want to remember. This page might change a lot, so when you like a link, be sure to bookmark it yourself.
@@ -12,6 +14,7 @@ Loose collection of links I want to remember. This page might change a lot, so w
 * http://stackoverflow.com/questions/28118902/spring-boot-remote-configuration
 * http://stackoverflow.com/questions/28122565/how-to-get-the-flyway-bean
 * http://stackoverflow.com/questions/28123299/spring-boot-module-based-integration-testing
+* http://stackoverflow.com/questions/23521280/spring-data-rest-configure-pagination
 
 ### SB JNDI
 
