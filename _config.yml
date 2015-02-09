@@ -13,7 +13,9 @@ github_username:  jangalinski
 feedburner_username: jangalinski
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+    extensions: [with_toc_data]
 highlighter: pygments
 permalink: pretty
 paginate: 5
