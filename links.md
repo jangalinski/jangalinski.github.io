@@ -40,6 +40,8 @@ Loose collection of links I want to remember. This page might change a lot, so w
 * http://stackoverflow.com/questions/28293533/thymeleaf-and-static-content
 * http://stackoverflow.com/questions/28311423/enabling-spring-security-makes-swagger-output-text-plain-instead-of-html
 
+* http://stackoverflow.com/questions/28306031/apparent-spring-boot-race-condition-causing-duplicate-springsecurityfilterchain
+
 ### Camunda/Spring
 
 * http://docs.camunda.org/7.2/guides/user-guide/#spring-framework-integration
