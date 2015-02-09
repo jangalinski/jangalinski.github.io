@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Links"
-description: "Links"
+description: "what else lies out there in the world"
 header-img: "img/about-bg.jpg"
 ---
 
