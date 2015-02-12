@@ -33,7 +33,8 @@ Loose collection of links I want to remember. This page might change a lot, so w
 * http://stackoverflow.com/questions/28228068/spring-boot-full-rest-crud-example
 * http://stackoverflow.com/questions/28234324/how-to-load-spring-boot-based-rest-application-properties-from-a-different-file
 * http://stackoverflow.com/questions/28374000/spring-programmatically-generate-a-set-of-beans
-
+* http://stackoverflow.com/questions/28392231/how-to-determine-programmatically-the-current-active-profile-using-spring-boot
+* http://stackoverflow.com/questions/28452400/how-to-enable-taskscheduler-in-spring-boot
 * http://stackoverflow.com/questions/28203130/how-to-deploy-and-access-springboot-war-with-tomcat-using-getting-started-gu
 
 * http://stackoverflow.com/questions/28275448/multiple-data-source-and-schema-creation-in-spring-boot
@@ -41,6 +42,15 @@ Loose collection of links I want to remember. This page might change a lot, so w
 * http://stackoverflow.com/questions/28311423/enabling-spring-security-makes-swagger-output-text-plain-instead-of-html
 
 * http://stackoverflow.com/questions/28306031/apparent-spring-boot-race-condition-causing-duplicate-springsecurityfilterchain
+
+### Spring (Boot) MVC
+
+* http://stackoverflow.com/questions/28449589/define-parameterizableviewcontroller-to-auto-redirect-path-url-with-view
+* http://stackoverflow.com/questions/28450276/spring-boot-freemarker-mvc-unit-tests-csrf
+
+### Spring (Boot) Testing
+
+* http://stackoverflow.com/questions/28418071/how-to-override-config-value-from-propertysource-used-in-a-configurationproper
 
 ### Camunda/Spring
 
