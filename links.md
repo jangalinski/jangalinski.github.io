@@ -43,6 +43,8 @@ Loose collection of links I want to remember. This page might change a lot, so w
 
 * http://stackoverflow.com/questions/28306031/apparent-spring-boot-race-condition-causing-duplicate-springsecurityfilterchain
 
+* http://stackoverflow.com/questions/28724894/spring-configuration-xml-and-properties-out-of-war
+
 ### Spring (Boot) MVC
 
 * http://stackoverflow.com/questions/28449589/define-parameterizableviewcontroller-to-auto-redirect-path-url-with-view
@@ -51,6 +53,7 @@ Loose collection of links I want to remember. This page might change a lot, so w
 ### Spring (Boot) Testing
 
 * http://stackoverflow.com/questions/28418071/how-to-override-config-value-from-propertysource-used-in-a-configurationproper
+* http://stackoverflow.com/questions/28694536/make-spring-boot-recreate-test-databases
 
 ### Camunda/Spring
 
