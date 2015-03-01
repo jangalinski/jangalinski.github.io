@@ -39,6 +39,8 @@ Loose collection of links I want to remember. This page might change a lot, so w
 
 * http://stackoverflow.com/questions/28275448/multiple-data-source-and-schema-creation-in-spring-boot
 * http://stackoverflow.com/questions/28293533/thymeleaf-and-static-content
+* http://stackoverflow.com/questions/28774903/spring-boot-thymeleaf-with-xml-templates
+* http://stackoverflow.com/questions/28767966/how-to-create-spring-properties-by-condition
 * http://stackoverflow.com/questions/28311423/enabling-spring-security-makes-swagger-output-text-plain-instead-of-html
 
 * http://stackoverflow.com/questions/28306031/apparent-spring-boot-race-condition-causing-duplicate-springsecurityfilterchain
