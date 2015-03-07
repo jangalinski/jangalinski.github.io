@@ -71,6 +71,10 @@ Loose collection of links I want to remember. This page might change a lot, so w
 
 * http://projects.spring.io/spring-cloud/
 
+## Vaadin
+
+* http://stackoverflow.com/questions/28876894/how-to-create-user-authentication-on-vaadin
+
 ## OSX
 
 * http://www.maceinsteiger.de/how-to/festplatte-verschlusseln/
