@@ -49,4 +49,4 @@ nicely keeping variable- and non-test-method-names on the way.
 
 ### Useful links
 
-* http://unix.stackexchange.com/questions/112023/how-can-i-replace-a-string-in-a-files
+* [how-can-i-replace-a-string-in-a-files](http://unix.stackexchange.com/questions/112023/how-can-i-replace-a-string-in-a-files)
