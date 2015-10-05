@@ -38,3 +38,7 @@ For a full pom.xml, check out the [repo](https://github.com/jangalinski/springbo
 
 For the push part, I leveraged the [Using Server-Push in a Vaadin app](http://www.sothawo.com/2015/06/using-server-push-in-a-vaadin-app/)
 example by P.J.Meisch.
+
+## Open points
+
+Seams like I didn't get the @EnableReactor annotation ... I had to configure the reactor environment in a static block. 
