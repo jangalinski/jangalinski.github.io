@@ -16,7 +16,7 @@ Stream.of(1, 45, 3, 2, null, 10,7,19,4,7,39).parallel().collect(match((a, b) -> 
 ```
 
 This will internally store the first value of the stream and then apply the given biPredicate to each following stream item, comparing the old and the new value.
-45 will match because it is greater than 1, and no follow up items are greater so this is the final result. As you can see, this can be used
+45 will match because it is greater than 1, and none of the follow up items are greater, so this is the final result. As you can see, this can be used
 in parallel.
 
 ## Let's have a look at the implementation:
