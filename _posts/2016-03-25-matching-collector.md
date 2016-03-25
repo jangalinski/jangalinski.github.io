@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java8-Stream: Collect BestMatch for given condition
+title: Java8-Stream Collect BestMatch for given condition
 ---
 
 
@@ -20,7 +20,7 @@ This will internally store the first value of the stream and then apply the give
 45 will match because it is greater than 1, and none of the follow up items are greater, so this is the final result. As you can see, this can be used
 in parallel.
 
-## Let's have a look at the implementation:
+## Let us have a look at the implementation:
 
 {% gist 2471f822440aaf2f9c58 %}
 
