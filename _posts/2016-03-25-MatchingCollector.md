@@ -3,6 +3,7 @@ layout: post
 title: Java8-Stream: Collect BestMatch for given condition
 ---
 
+
 I just started a [snippets-repository](https://github.com/jangalinski/snippets) to collect and discuss some useful helpers or 
 spikes I came along.
 
