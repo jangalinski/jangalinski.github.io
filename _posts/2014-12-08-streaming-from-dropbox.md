@@ -18,7 +18,7 @@ I searched a bit and found the solution on [lockergnome](http://www.lockergnome.
 It is extremely easy:
 
 1. convert your video to mp4 (I used "permute" for this).
-2. Move the video to /Dropbox/public
+2. Move the video to `/Dropbox/public`
 3. right click the video and copy the public link
 4. enter some HTML5 code in your page, using the link you just copied to the clipboard.
 5. you are done.
@@ -32,6 +32,3 @@ It is extremely easy:
 
 Nice, clean, simple (ok, I used one american file hoster instead of an american video portal) and I can just remove the
 vids any time with a simple keystroke.
-
-
-// TODO: still have to figure out how syntax highlighting works
