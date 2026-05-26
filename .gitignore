@@ -30,3 +30,6 @@ gradle/kotlin-js-store/yarn.lock
 
 # Kotlin ignores
 .kotlin/
+
+
+.env
