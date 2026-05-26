@@ -1,0 +1,14 @@
+site:
+  title: "Jan Galinski"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/kotlin-webpack/js/developmentExecutable/jangalinski.js"
+      api: "build/libs/jangalinski.jar"
+    prod:
+      script: "build/kotlin-webpack/js/productionExecutable/jangalinski.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080

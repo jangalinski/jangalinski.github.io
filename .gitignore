@@ -1,12 +1,32 @@
-_site/*
-_theme_packages/*
-
-Thumbs.db
+# General ignores
 .DS_Store
+build/
+out/
 
-!.gitkeep
-
-.rbenv-version
-.rvmrc
+# IntelliJ ignores
 .idea/
 *.iml
+/*.ipr
+
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/gradle.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/artifacts
+/.idea/compiler.xml
+/.idea/jarRepositories.xml
+/.idea/*.iml
+/.idea/modules
+/.idea/libraries-with-intellij-classes.xml
+
+# Gradle ignores
+.gradle/
+gradle/kotlin-js-store/yarn.lock
+
+.justfile
+
+# Kotlin ignores
+.kotlin/
