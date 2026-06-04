@@ -1,5 +1,5 @@
 [versions]
-kotlin-gradle-plugin = "2.3.21"
+kotlin-gradle-plugin = "2.4.0"
 compose-html = "1.11.1"
 compose-runtime = "1.11.2"
 kobweb = "0.24.0"
