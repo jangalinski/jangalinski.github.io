@@ -2,7 +2,7 @@
 kotlin-gradle-plugin = "2.4.10"
 compose-html = "1.11.1"
 compose-runtime = "1.11.4"
-kobweb = "0.25.0"
+kobweb = "0.25.1"
 
 [libraries]
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin-gradle-plugin" }
